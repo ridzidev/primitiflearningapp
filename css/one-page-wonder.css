@@ -64,6 +64,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  border-radius:8px;
 
 
 }
@@ -166,18 +167,18 @@ header.masthead .bg-circle-4 {
     background: linear-gradient(0deg, #3eb489 0%, #fff 100%);
 }
 .bg-container2 {
-    background: linear-gradient(0deg, #51e3d4 0%, #fff 100%);
+    background: linear-gradient(0deg, #D6F7E7 0%, #fff 100%);
 }
 .button1 {
-  background-color: #000; /* Green */
+  background-color: #fff; /* Green */
   border: 5px;
-  color: #fff;
+  color: blue;
   padding: 5px 5px 5px 5px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .column {
@@ -190,4 +191,14 @@ header.masthead .bg-circle-4 {
   content: "";
   display: table;
   clear: both;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
 }
